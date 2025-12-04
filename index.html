@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jogo de Adivinhação de Cores</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎨 Jogo de Adivinhação de Cores</h1>
+    <p class="instructions">
+      Você tem <strong>3 tentativas</strong> para adivinhar a cor sorteada!<br />
+      Digite o nome da cor em português (ex: <em>vermelho, azul, verde...</em>).
+    </p>
+
+    <p class="attempts">
+      Tentativas restantes: <span id="attempts-remaining">3</span>
+    </p>
+
+    <div class="input-group">
+      <label for="color-input">Digite o nome da cor:</label>
+      <input
+        type="text"
+        id="color-input"
+        placeholder="Ex: vermelho, azul, verde..."
+        autocomplete="off"
+      />
+      <!-- preview de cor -->
+      <div id="color-sample" class="color-sample hidden" aria-hidden="true"></div>
+      <!-- sugestões rápidas (em português, data-cor com o nome em português) -->
+      <div class="suggestions">Sugestões:
+        <span class="tag" data-cor="vermelho">vermelho</span>
+        <span class="tag" data-cor="azul">azul</span>
+        <span class="tag" data-cor="verde">verde</span>
+        <span class="tag" data-cor="roxo">roxo</span>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="guess-button">Adivinhar</button>
+      <button id="restart-button" class="hidden">Jogar Novamente</button>
+    </div>
+
+    <p id="feedback" class="feedback"></p>
+
+    <!-- histórico simples -->
+    <ul id="history" class="history" aria-live="polite"></ul>
+
+    <!-- Crédito -->
+    <footer class="credit" aria-hidden="false">Criado por Adrielly Costa</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
