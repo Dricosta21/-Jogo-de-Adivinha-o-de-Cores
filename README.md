@@ -56,7 +56,7 @@ Ao subir o projeto, vá em **Settings > Pages**, escolha a branch e ative.
 O link ficará assim:
 
 ```
-https://SEU-USUARIO.github.io/jogo-cores-js/
+https://dricosta21.github.io/-Jogo-de-Adivinha-o-de-Cores/
 ```
 
 ---
