@@ -175,24 +175,6 @@ body.lose .game-container {
   font-weight: 600;
 }
 
-/* sugestões */
-.suggestions {
-  margin-top: 8px;
-  font-size: 0.85rem;
-  color: #cfcfcf;
-}
-.tag {
-  display: inline-block;
-  background: rgba(255,255,255,0.03);
-  padding: 4px 8px;
-  border-radius: 999px;
-  margin-left: 6px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.12s ease;
-}
-.tag:hover { background: rgba(255,255,255,0.06); }
-
 /* histórico */
 .history {
   list-style: none;
