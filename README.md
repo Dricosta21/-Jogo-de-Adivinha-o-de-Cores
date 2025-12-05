@@ -1,74 +1,78 @@
-# 🎨 Jogo de Adivinhação de Cores
+# 🎨 Jogo de Adivinhação de Cores — Projeto Prático C3  
 
-Projeto prático C3 – Jogo de adivinhação de cores em **HTML, CSS e JavaScript**, para praticar manipulação do DOM, eventos e lógica de programação.
+> Projeto desenvolvido para treinar **JavaScript**, com foco em lógica de programação, funções, eventos e controle de tentativas.
 
-O objetivo do jogo é adivinhar uma cor sorteada pelo sistema, usando nomes de cores em **português** (ex.: `vermelho`, `azul`, `verde`), que são mapeados para cores CSS.
+## 🚀 Status do Projeto  
+**GitHub Pages:** Publicado e acessível online.
 
----
+## 💡 Sobre o Projeto  
+Este jogo foi criado como parte do Projeto Prático C3, com o objetivo de praticar conceitos essenciais do **JavaScript**, como:
 
-## 🧩 Como o jogo funciona
+- Uso de **arrays**
+- Geração de valores aleatórios com `Math.random()`
+- Comparação de valores
+- Estruturas condicionais (`if`, `else`)
+- Controle de tentativas
+- Funções e limpeza de código
+- Eventos de interação do usuário
 
-- Ao carregar a página, o sistema sorteia uma cor aleatória de uma lista de cores nomeadas:
-  - vermelho, azul, verde, amarelo, roxo, laranja, rosa, marrom, cinza, ciano.
-- Você tem **3 tentativas** para acertar a cor.
-- Você digita o **nome da cor em português** no campo de texto e clica em **“Adivinhar”**.
-- O jogo faz a validação:
-  - Se o campo estiver vazio, uma mensagem pede para digitar uma cor.
-  - Se a cor digitada não estiver na lista, aparece uma mensagem de “cor inválida”.
+O jogo consiste em adivinhar a cor que o sistema sorteou aleatoriamente.
 
-### Regras de vitória e derrota
+## ✨ Funcionalidades
 
-- **Acertou a cor:** fundo muda, mensagem aparece, botão desabilita e surge o “Jogar Novamente”.
-- **Errou:** tentativas diminuem, mensagem aparece, input limpa.
-- **Acabaram as tentativas:** exibe fim de jogo e mostra a cor correta.
-- **Jogar novamente:** restaura tudo.
+✔️ Sorteio aleatório de uma cor  
+✔️ Três tentativas para o jogador adivinhar  
+✔️ Mensagens dinâmicas de acerto, erro e fim de jogo  
+✔️ Exibição da cor correta quando o jogador perde  
+✔️ Botão **Jogar Novamente** que reinicia toda a lógica  
+✔️ Código organizado e comentado para estudo  
 
----
+## 🎯 Regras do Jogo
 
-## 🧠 Tecnologias utilizadas
+- Ao iniciar, o sistema escolhe uma cor aleatória de uma lista predefinida  
+- O jogador deve digitar o nome da cor e confirmar  
+- Cada tentativa errada reduz o contador  
+- Ao acertar:
+  - O jogo exibe uma mensagem de sucesso  
+  - O fundo da página muda para a cor correta  
+- Ao errar três vezes:
+  - A resposta correta é exibida  
+- O botão **"Jogar Novamente"** permite começar um novo jogo  
 
-- HTML5  
-- CSS3  
-- JavaScript ES6+  
-
----
-
-## 📁 Estrutura
-
-```
-index.html
-styles.css
-script.js
-README.md
-```
-
----
-
-## 🚀 Como executar
-
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
-
----
-
-## 🌐 GitHub Pages
-
-Ao subir o projeto, vá em **Settings > Pages**, escolha a branch e ative.  
-O link ficará assim:
-
-```
+## 🔗 Demonstração Online  
+👉 **Acesse aqui:**  
 https://dricosta21.github.io/-Jogo-de-Adivinha-o-de-Cores/
+
+## 💻 Como Executar Localmente  
+
+```bash
+git clone [link-do-seu-repositorio]
+cd nome-da-pasta
+index.html
 ```
 
----
+Nenhuma instalação é necessária — o jogo funciona direto no navegador.
 
-## ✅ Requisitos Atendidos
+## 🗂 Estrutura do Projeto
 
-- [x] Array de cores  
-- [x] Sorteio aleatório  
-- [x] 3 tentativas  
-- [x] Validação e comparação  
-- [x] Mudança de cor do fundo  
-- [x] Feedback visual  
-- [x] “Jogar Novamente” funcional  
-- [x] Código organizado  
-- [x] README completo  
+```
+📁 raiz
+├── index.html        → Estrutura do jogo
+├── styles.css        → Estilização simples e funcional
+├── script.js         → Lógica principal em JavaScript
+└── README.md         → Documentação
+```
+
+## 🧠 Conteúdos de JavaScript Treinados
+
+- Arrays (`[]`)
+- Funções
+- Eventos (`onclick`)
+- Condicionais
+- Comparação de strings
+- Uso de `Math.floor()` e `Math.random()`
+- Controle de fluxo
+- Boas práticas de organização de código  
+
+## 👤 Autora  
+**Adrielly Costa**
